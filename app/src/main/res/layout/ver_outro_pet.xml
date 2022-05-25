@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_foto_do_meu_pet"
+            android:layout_gravity="center"
+            android:textSize="@dimen/tamanho_fonte_16"
+            android:textAllCaps="true"
+            android:layout_marginTop="@dimen/margem_36"/>
+
+        <ImageView
+            android:layout_width="@dimen/largura_200"
+            android:layout_height="@dimen/altura_200"
+            android:src="@drawable/foto_pitaya"
+            android:contentDescription="@string/descricao_foto_pitaya"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margem_36"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_nome_pitaya"
+            android:layout_gravity="left"
+            android:textSize="@dimen/tamanho_fonte_12"
+            android:layout_marginTop="@dimen/margem_36"
+            android:layout_marginLeft="@dimen/margem_120"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_raca_do_pet"
+            android:layout_gravity="left"
+            android:textSize="@dimen/tamanho_fonte_12"
+            android:layout_marginLeft="@dimen/margem_120"
+            android:layout_marginTop="@dimen/margem_10"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_idade_do_pet"
+            android:layout_gravity="left"
+            android:textSize="@dimen/tamanho_fonte_12"
+            android:layout_marginLeft="@dimen/margem_120"
+            android:layout_marginTop="@dimen/margem_10"/>
+
+        <Button
+            android:id="@+id/botao_mensagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_botao_msg"
+            android:textSize="@dimen/tamanho_fonte_14"
+            android:textAllCaps="true"
+            android:backgroundTint="@color/cor_secundaria"
+            android:layout_marginHorizontal="@dimen/margem_100"
+            android:layout_marginVertical="@dimen/margem_36"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/botao_voltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voltar para o Pet anterior"
+            android:textSize="@dimen/tamanho_fonte_14"
+            android:textAllCaps="true"
+            android:backgroundTint="@color/cor_primaria"
+            android:layout_marginHorizontal="@dimen/margem_36"
+            android:layout_marginBottom="@dimen/margem_120"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+</ScrollView>

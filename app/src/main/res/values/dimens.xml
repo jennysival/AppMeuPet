@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="largura_200">200dp</dimen>
+    <dimen name="altura_200">200dp</dimen>
+    <dimen name="tamanho_fonte_16">16sp</dimen>
+    <dimen name="tamanho_fonte_12">12sp</dimen>
+    <dimen name="margem_36">36dp</dimen>
+    <dimen name="margem_120">120dp</dimen>
+    <dimen name="margem_10">10dp</dimen>
+    <dimen name="tamanho_fonte_14">14sp</dimen>
+    <dimen name="margem_100">100dp</dimen>
+</resources>

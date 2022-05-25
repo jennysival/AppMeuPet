@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Meu Pet</string>
+    <string name="texto_foto_do_meu_pet">ESSA É A FOTO DO MEU PET</string>
+    <string name="descricao_foto_melancia">Foto de um cachorro caramelo com orelhas e pelos curtos, com a língua para fora</string>
+    <string name="texto_nome_do_pet">Nome do Pet: Melancia</string>
+    <string name="texto_idade_do_pet">Idade do pet: 4 anos</string>
+    <string name="texto_raca_do_pet">Raça do pet: Vira-Lata</string>
+    <string name="texto_botao_msg">MENSAGEM</string>
+    <string name="texto_botao_ver_mais">Ver mais um pet</string>
+    <string name="descricao_foto_pitaya">Cachorro peludo caramelo, visto de cima, com a língua para fora</string>
+    <string name="texto_nome_pitaya">Nome do Pet: Pitaya</string>
+    <string name="mensagem_toast_latido">Au! Au! Au!</string>
+</resources>
